@@ -26,19 +26,27 @@ public static void main(String[] args) {
 
 	
 	// 4. If the random number is 0
-
+if(number==0) {
+	JOptionPane.showMessageDialog(null, "Yes.");
+}
 	// -- tell the user "Yes"
 
 	// 5. If the random number is 1
-
+if(number==1) {
+	JOptionPane.showMessageDialog(null, "No.");
+}
 	// -- tell the user "No"
 
 	// 6. If the random number is 2
-
+if(number==2) {
+	JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
+}
 	// -- tell the user "Maybe you should ask Google?"
 
 	// 7. If the random number is 3
-
+if(number==3) {
+	JOptionPane.showMessageDialog(null, "Question hazy, please try again.");
+}
 	// -- write your own answer
 }
 }
